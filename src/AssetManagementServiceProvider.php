@@ -36,7 +36,7 @@ class AssetManagementServiceProvider extends PackageServiceProvider
                     ->publishConfigFile()
                     ->publishMigrations()
                     ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('jinxit/assetmanagement');
+                    ->askToStarRepoOnGitHub('zajinx/assetmanagement');
             });
 
         $configFileName = $package->shortName();
